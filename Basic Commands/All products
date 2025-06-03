@@ -1,0 +1,5 @@
+SELECT * FROM Products;
+// Select : it is used for fetch or retrive the data from a database . it allows users to access the data and retrive specific data based on a specific conditions.
+// * : every columns in the table
+// from : this tells sql from which table to retrive the data.
+// products : table name , this is the name of the table from which you want the data.
