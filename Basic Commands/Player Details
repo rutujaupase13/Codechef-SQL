@@ -1,0 +1,7 @@
+SELECT M.MATCH_ID,M.PLAYER_1, M.PLAYER_2,  M.WINNER , M.MATCH_DATE , P.SCORE
+FROM MATCHES AS M
+JOIN PLAYERS AS P
+ON M.WINNER = P.PLAYER_NAME
+ORDER BY MATCH_DATE DESC 
+LIMIT 5; 
+-- Here, we sort the data in descending order by match_date because the question asks for the data of the last five matches.
